@@ -1,0 +1,8 @@
+{
+  "name": "electron-app-crud-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:eduardosilvapereira/electron-app-crud-example.git",
+  "author": "Eduardo Pereira <silvapereiraeduardo@gmail.com>",
+  "license": "MIT"
+}

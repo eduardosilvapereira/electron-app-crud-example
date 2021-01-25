@@ -1,0 +1,24 @@
+{
+  "name": "electron",
+  "version": "0.1.0",
+  "main": "main.js",
+  "license": "MIT",
+  "author": {
+    "name": "Eduardo Pereira",
+    "email": "silvapereiraeduardo@gmail.com",
+    "url": "https://github.com/eduardosilvapereira"
+  },
+  "build": {
+    "appId": "electronappcrudexample"
+  },
+  "postinstall": "electron-builder install-app-deps",
+  "scripts": {
+    "start": "electron .",
+    "build:pack": "electron-builder --dir",
+    "build:dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^11.2.1",
+    "electron-builder": "^22.9.1"
+  }
+}
